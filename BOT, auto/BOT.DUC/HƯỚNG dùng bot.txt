@@ -1,0 +1,16 @@
+CÁCH CÂU LỆNH HIỆN DÙNG ĐƯỢC KHI GÕ
+*vì bt làm UI VÀ UX
+LÊN hiện bot chỉ dc sử dụng dưới dạng lệnh=))*
+
+1.Google ( Thay VÌ mở gg lên để tra bạn có thể làm luôn trong lệnh)
+2.Youtube ( ờm giống trên chỉ khác là xem video)
+3. để tắt có hiệu ứng(con BOT) dùng lệnh : đóng
+4. Muốn xem thời gian hãy dùng lệnh : mấy giờ
+5. Hôm nay là sinh nhật của tôi
+6. là mở app(chưa pt xong nhg tương lai sẽ có )
+7. CHECK tên tuổi
+8. .... hết rồi =))
+
+NẾU NHẬP SAI CÁC CÂU LỆNH TRÊN BOT SẼ YÊU CẦU BẠN NHẬP LẠI
+
+
