@@ -2,7 +2,9 @@ from tkinter.filedialog import askopenfilename
 import pyautogui as auto
 import time
 import keyboard
-text = input("Enter the text you want to spam: ")
+import random
+
+chs_text = ["spamer", "bot day", "huhu"]
 
 time.sleep(1)
 while True:
@@ -10,6 +12,7 @@ while True:
         print('dừng spam')
         break
            
-    auto.write(text)
+    auto.write(chs_text[random.randint(0, 2)])
     auto.press('enter')
-    time.sleep(0.1)
+    auto.press('enter')
+    time.sleep(1)
