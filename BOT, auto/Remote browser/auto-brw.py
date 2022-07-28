@@ -9,18 +9,20 @@ import time
 import requests
 import os
 from selenium import webdriver
+from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.ui import WebDriverWait
+import test
 init(wrap=False)
 stream = AnsiToWin32(sys.stderr).stream
 
 
 print("BOt made by DUC :D, pls don't copy oke")
 key_pass = input("Nhập key :")
-if 'boductuyetvoi' in key_pass:
+if 'boductuyetvoi'and'hello' in key_pass:
     print(Fore.RED + 'NHẬP KEY THÀNH CÔNG NHA', file=stream)
     print(Style.RESET_ALL, file=stream) #reset color
 else :
@@ -32,6 +34,7 @@ type_url = input("""Nhập url của bạn
                     Ví Dụ: https://w3theband.ga/
 
                     URL:""")
+                    
 ques = input("chạy ko?(y/n):")
 print(Fore.YELLOW + """Chọn Trình Duyệt 
                             |1.Chrome               | 
@@ -64,6 +67,9 @@ if '1' in chosse_brw:
                 driver = webdriver.Chrome(executable_path=chromepath)
                 driver.get(type_url)
                 time.sleep(5)
+                kill_task = r"kill.bat"
+                os.startfile(kill_task)
+                sys.exit()
                 sys.exit()
             elif 'n' in ques:
                 print("Hủy nhiêm vụ hoàn tất!!")
@@ -74,7 +80,6 @@ if '2' in chosse_brw:
     print(Style.RESET_ALL, file=stream) #reset color
     print("Đang chạy FireFox")
     #Dành cho trình duyệt FireFox
-   
     while True:
             if 'y' in ques:
                 print("1")

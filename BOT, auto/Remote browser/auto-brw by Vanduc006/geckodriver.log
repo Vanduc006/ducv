@@ -1,0 +1,35 @@
+1657035180323	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMIN-~1\\AppData\\Local\\Temp\\rust_mozprofileUGM9os"
+1657035181157	Marionette	INFO	Marionette enabled
+1657035181167	Marionette	INFO	Listening on port 11942
+1657035181955	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMIN-~1\\AppData\\Local\\Temp\\rust_mozprofileUGM9os\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/5641.7948610182db496599c7.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/5641.7948610182db496599c7.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/5641.7948610182db496599c7.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached:
+SHADER_INFO_LOG:
+ERROR: 0:1: ')' : syntax error
+
+JavaScript warning: , line 0: WebGL warning: useProgram: Program must be linked successfully.
+JavaScript warning: , line 0: WebGL warning: vertexAttribI?Pointer: `index` (4294967295) must be < MAX_VERTEX_ATTRIBS.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+1658758607852	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMIN-~1\\AppData\\Local\\Temp\\rust_mozprofiler70pGA"
+1658758609290	Marionette	INFO	Marionette enabled
+1658758609302	Marionette	INFO	Listening on port 3139
+1658758610158	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMIN-~1\\AppData\\Local\\Temp\\rust_mozprofiler70pGA\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iMn54/yv/l/vi_VN/8cfEJlHevsz.js?_nc_x=Ij3Wp8lg5Kz, line 16: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1658758619525	Marionette	INFO	Stopped listening on port 3139
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+[Parent 9800, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1658908668087	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMIN-~1\\AppData\\Local\\Temp\\rust_mozprofilea01iPR"
+1658908828475	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMIN-~1\\AppData\\Local\\Temp\\rust_mozprofileE6zfur"
+1658908829373	Marionette	INFO	Marionette enabled
+1658908829382	Marionette	INFO	Listening on port 31129
+1658908830004	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 68: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMIN-~1\\AppData\\Local\\Temp\\rust_mozprofileE6zfur\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iMn54/yv/l/vi_VN/8cfEJlHevsz.js?_nc_x=Ij3Wp8lg5Kz, line 16: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
