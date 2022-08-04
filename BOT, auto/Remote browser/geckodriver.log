@@ -2276,3 +2276,55 @@ JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iMn54/yv/l/vi_VN/8cfE
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
 !!! error running onStopped callback: TypeError: callback is not a function
 [Parent 8040, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1658997893013	geckodriver	INFO	Listening on 127.0.0.1:23514
+1658997896281	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "23515" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMIN-~1\\AppData\\Local\\Temp\\rust_mozprofileABUPZw"
+1658997897609	Marionette	INFO	Marionette enabled
+1658997897622	Marionette	INFO	Listening on port 23525
+WebDriver BiDi listening on ws://localhost:23515
+Read port: 23525
+1658997897898	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMIN-~1\\AppData\\Local\\Temp\\rust_mozprofileABUPZw\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:23515/devtools/browser/bc49233a-eca7-4887-851b-fbb7f829b148
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/default/live/index.min.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/6645.d661b7b6b205f056bead.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/default/live/index.min.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript error: https://deo.shopeemobile.com/shopee/web-sdk/default/live/index.min.js, line 1: TypeError: q[zo(...)] is not a function
+1658997930198	Marionette	INFO	Stopped listening on port 23525
+1659018696684	geckodriver	INFO	Listening on 127.0.0.1:26685
+1659018699921	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "26686" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMIN-~1\\AppData\\Local\\Temp\\rust_mozprofileKCegKj"
+1659018701115	Marionette	INFO	Marionette enabled
+1659018701128	Marionette	INFO	Listening on port 26695
+WebDriver BiDi listening on ws://localhost:26686
+Read port: 26695
+1659018701604	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMIN-~1\\AppData\\Local\\Temp\\rust_mozprofileKCegKj\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:26686/devtools/browser/632703b4-16ea-4491-9f28-21c0128be1aa
+1659018710687	Marionette	INFO	Stopped listening on port 26695
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 595: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+[Parent 13748, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:554
+1659018732326	geckodriver	INFO	Listening on 127.0.0.1:26738
+1659018735387	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "26739" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMIN-~1\\AppData\\Local\\Temp\\rust_mozprofileLt2V1K"
+1659018736316	Marionette	INFO	Marionette enabled
+1659018736330	Marionette	INFO	Listening on port 26748
+WebDriver BiDi listening on ws://localhost:26739
+Read port: 26748
+1659018736618	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMIN-~1\\AppData\\Local\\Temp\\rust_mozprofileLt2V1K\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:26739/devtools/browser/19368d7f-2296-4387-add5-a58b0ea0a4ee
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/8330.dc08122115b23a5302e7.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/6645.d661b7b6b205f056bead.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/1acf68622fee516a189a991f4115a7711ffd50cb.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
