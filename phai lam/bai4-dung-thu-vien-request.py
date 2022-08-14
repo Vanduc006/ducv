@@ -1,8 +1,8 @@
 import requests
 import urllib3
 
-respone = requests.get('https://www.google.com/', verify=False)
-print(respone.status_code)
+respone = requests.get('https://ezclick.glitch.me', verify=False)
+print(respone.text)
 
     
 
