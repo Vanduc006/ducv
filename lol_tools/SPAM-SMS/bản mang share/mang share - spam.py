@@ -7,73 +7,21 @@ import time
 from random import choice, randint, shuffle
 from time import sleep
 import webbrowser as wb
-from pygame import mixer
-import pyttsx3
 
 
-
-
-
-# âm thanh huấn
-sound_huan = 'item/Am-thanh-co-lam-moi-co-an-huan-hoa-hong-www_tiengdong_com.mp3'
-# set tiếng nói
-bot = pyttsx3.init()
-voice = bot.getProperty('voices')
-# id : 0 là trai, 1 là gái
-bot.setProperty('voice',voice[1].id)
-def speak(audio):# hàm nói
-    global speak
-    print("SPAMMER :" + audio)
-    bot.say(audio)
-    bot.runAndWait()
-#check_ip_client
-os.system('cls')
-with open('item/youripaddress.txt', 'r') as f:
-    ip_client =  f.read()
-
-    if ip_client == '192.168.0.104' or ip_client == '192.168.51.103':
-      print('[+] Your IP is allowed')
-    elif ip_client == 'boladucday':
-      print('[-] Đây là trường hợp ngoại lệ')  
+with open('share.txt', 'r') as f:
+    share = f.read()
+    if share == 'day la ban mang di share ':
+      print('[+] Chào Mừng Đến Bản Share')
+      input("NHẬP ENTER ĐỂ TIẾP TỤC")
     else :
-      print('[-] Your IP is not allowed')
-      mixer.init()
-      mixer.music.load(sound_huan)  
-      mixer.music.play()
-      sleep(9)
+      print('[-] Bạn Không Có Quyền Sử Dụng Bản Share')
+      input("NHẬP ENTER ĐỂ THOÁT")
       sys.exit()  
 
-nhapkey = input("NHẬP KEY XONG MỚI ĐƯỢC NGHỊCH NHÉ: ")
+# đây là bản mang share
 
-if 'huakhongchiasechoai' in nhapkey:
-  print("Chơi thôi nào!!!")
 
-else:
-    print("""           (..........................#@@@@@@@%##%@@@@@@&%/..........................,,,,**
-           (........................*#@@(***,,,,,,,.,,**%@@,..........................,,,,*
-           (......................./&(//***,,,,*,*/(###((//%,.........................,,,**
-           (.......................@/(####((///**/(((/,,**//(* .......................,,,**
-           (......................,((/////(#((/*.*/*%%&&%&#///*........................,,**
-           (......................*//(%##(////*,.,***,..,,,**//........................,,**
-           (......................,//////**//*//*/////////////(/.......................,***
-           (.......................////////(((((#####**/((((((((((/....................,***
-           (.....................#(//(////(((((#######((((((((((*/,....................,***
-           (.....................*(((/(/(((#(&&@@@@@&&@@%((((((/.......................,***
-           (........................((((((((((########((//(((##,.......................,***
-           (........................../((((((((((((//**///(####................,,*,.....,**
-           (.......................*(%&&%#####(((((((((##%%&&&(////#///(((////////////(%,**
-           (......................(((#%&&&&&&&&&&&&&&&&&&&%(((((((((%((((((((((((///(#(//**
-           (..................((((((((((((((((((##*.##,(((((((((((((&(((((((((((((((#//////
-           (................./####((((((((((##((###.,,*#((###((#%&&&&#(((((((((((((%#(((///
-           (.......,*/////((#####%%%&&&%%#%%%%%####%...%###%%%%%%&%#%%((((((((((((((#//////
-           (....///////////(#######%%%&&%%##########...####%%%%%%%##%%(((((((((((((((((////    """)
-    mixer.init()
-    mixer.music.load(sound_huan)  
-    mixer.music.play()
-    sleep(9)
-    os.system('cls')
-
-    sys.exit()  
 try:
   from pystyle import Center, Anime, Colors, Colorate
 except:
@@ -178,7 +126,7 @@ while True:
     string=requests.post(f'https://api-sms-v2.herokuapp.com/vntrip?phone={sdt}').text
     string=requests.post(f'https://api-sms-v2.herokuapp.com/the-gioi-di-dong?phone={sdt}').text
     print(f'\033[1;97m[{stt}]\033[1;96m Success Send OTP\033[1;94m-\033[1;95mPhone\033[1;94m-\033[1;94m{sdt}')
-    speak('Success Send OTP Phone')
+    
 
     for a in range(time_delay,0,-1):
         print(f'Tiếp Tục Spam Sau {a}s ', end='\r')
