@@ -22,7 +22,7 @@ stream = AnsiToWin32(sys.stderr).stream
 
 print("BOt made by DUC :D, pls don't copy oke")
 key_pass = input("Nhập key :")
-if 'boductuyetvoi'and'hello' in key_pass:
+if 'boductuyetvoi'or'hello' in key_pass:
     print(Fore.RED + 'NHẬP KEY THÀNH CÔNG NHA', file=stream)
     print(Style.RESET_ALL, file=stream) #reset color
 else :

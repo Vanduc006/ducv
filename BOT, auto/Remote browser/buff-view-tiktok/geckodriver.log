@@ -1,0 +1,343 @@
+1660490508369	geckodriver	INFO	Listening on 127.0.0.1:4441
+1660490511400	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "4442" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMIN-~1\\AppData\\Local\\Temp\\rust_mozprofile9lzD5c"
+1660490512101	Marionette	INFO	Marionette enabled
+1660490512112	Marionette	INFO	Listening on port 4452
+WebDriver BiDi listening on ws://localhost:4442
+Read port: 4452
+1660490512352	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMIN-~1\\AppData\\Local\\Temp\\rust_mozprofile9lzD5c\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:4442/devtools/browser/cafa0dad-fe4f-439b-9d66-605f93e11227
+1660490592419	Marionette	INFO	Stopped listening on port 4452
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1660490628157	geckodriver	INFO	Listening on 127.0.0.1:4558
+1660490631202	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "4559" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMIN-~1\\AppData\\Local\\Temp\\rust_mozprofileshzGMD"
+1660490631918	Marionette	INFO	Marionette enabled
+1660490631932	Marionette	INFO	Listening on port 4570
+WebDriver BiDi listening on ws://localhost:4559
+Read port: 4570
+1660490632168	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMIN-~1\\AppData\\Local\\Temp\\rust_mozprofileshzGMD\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:4559/devtools/browser/c1069e49-f46d-4b16-970e-efa9ba0f9780
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fireliker.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fireliker.com"
+JavaScript warning: https://lputorrents.xyz/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://pagead2.googlesyndication.com/bg/lIG_-rjQweUtsPTJkqViasoL1XPo6OtXzg5InKx-NMQ.js line 2 > eval line 2874 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+[GFX1-]: DCompositionSurface::BeginDraw failed: 0x887a0005 Rect(x=524288, y=524373, w=1024, h=427)
+[GFX1-]: Handling webrender error 4
+[GFX1-]: R[GFX1-]: Receieve IPC close with reason=AbnormalShutceive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+down
+[Parent 8876, Main Thread] WARNING: base::KillProcess refusing to terminate process handle 0: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:405
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+[GFX1-]: DCompositionSurface::BeginDraw failed: 0x887a0005 Rect(x=524288, y=524800, w=1024, h=138)
+[GFX1]: Device reset due to WR device: 0x887a0006
+[GFX1-]: GFX: RenderThread detected a device reset in PostUpdate
+[GFX1]: Device reset due to WR device: 0x887a0006
+[GFX1-]: Handling webrender error 4
+[GFX1-]: Fallback WR to SW-WR + D3D11
+[GFX1-]: Failed to make render context current during destroying.
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: "Unable to find target with innerWindowId:4294967314"
+console.error: "Unable to find target with innerWindowId:4294967322"
+console.error: "Unable to find target with innerWindowId:4294967329"
+console.error: "Unable to find target with innerWindowId:4294967334"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fireliker.com"
+JavaScript warning: https://lputorrents.xyz/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://pagead2.googlesyndication.com/bg/lIG_-rjQweUtsPTJkqViasoL1XPo6OtXzg5InKx-NMQ.js line 2 > eval line 6747 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: "Error when attaching target:" (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967383/thread1, type isAttached failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:293:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:49:19\nattachThread@resource://devtools/client/fronts/targets/target-mixin.js:561:49\n", "resource://devtools/shared/protocol/Front.js", 107))
+JavaScript error: resource://devtools/client/framework/toolbox.js, line 3382: TypeError: data.frameData.id is null
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1660491500403	Marionette	INFO	Stopped listening on port 4570
+1660530362042	geckodriver	INFO	Listening on 127.0.0.1:6081
+1660530365060	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "6082" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMIN-~1\\AppData\\Local\\Temp\\rust_mozprofileSPbD1s"
+1660530366461	Marionette	INFO	Marionette enabled
+1660530366477	Marionette	INFO	Listening on port 6093
+WebDriver BiDi listening on ws://localhost:6082
+Read port: 6093
+1660530366748	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMIN-~1\\AppData\\Local\\Temp\\rust_mozprofileSPbD1s\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:6082/devtools/browser/dcda63c7-2ba5-4494-892b-7e518e753faf
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fireliker.com"
+JavaScript warning: https://lputorrents.xyz/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://pagead2.googlesyndication.com/bg/lIG_-rjQweUtsPTJkqViasoL1XPo6OtXzg5InKx-NMQ.js line 2 > eval line 4528 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1660530528836	Marionette	INFO	Stopped listening on port 6093
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1660530547032	geckodriver	INFO	Listening on 127.0.0.1:6329
+1660530550074	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "6330" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMIN-~1\\AppData\\Local\\Temp\\rust_mozprofileYptPtg"
+1660530550808	Marionette	INFO	Marionette enabled
+1660530550823	Marionette	INFO	Listening on port 6346
+WebDriver BiDi listening on ws://localhost:6330
+Read port: 6346
+1660530551136	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMIN-~1\\AppData\\Local\\Temp\\rust_mozprofileYptPtg\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:6330/devtools/browser/41158f82-5579-4ebe-9361-dfdb54962c1c
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fireliker.com"
+JavaScript warning: https://lputorrents.xyz/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://pagead2.googlesyndication.com/bg/lIG_-rjQweUtsPTJkqViasoL1XPo6OtXzg5InKx-NMQ.js line 2 > eval line 694 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fireliker.com"
+1660530680242	Marionette	INFO	Stopped listening on port 6346
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1660530694880	geckodriver	INFO	Listening on 127.0.0.1:6524
+1660530697919	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "6525" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMIN-~1\\AppData\\Local\\Temp\\rust_mozprofilebj1e0f"
+1660530698670	Marionette	INFO	Marionette enabled
+1660530698681	Marionette	INFO	Listening on port 6537
+WebDriver BiDi listening on ws://localhost:6525
+Read port: 6537
+1660530698936	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMIN-~1\\AppData\\Local\\Temp\\rust_mozprofilebj1e0f\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:6525/devtools/browser/23c008f1-cdc2-4941-8dbf-b1b988e774d0
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fireliker.com"
+JavaScript warning: https://lputorrents.xyz/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://pagead2.googlesyndication.com/bg/lIG_-rjQweUtsPTJkqViasoL1XPo6OtXzg5InKx-NMQ.js line 2 > eval line 1196 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fireliker.com"
+1660530939372	Marionette	INFO	Stopped listening on port 6537
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+!!! error running onStopped callback: TypeError: callback is not a function
+1660531118130	geckodriver	INFO	Listening on 127.0.0.1:6903
+1660531121158	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "6904" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMIN-~1\\AppData\\Local\\Temp\\rust_mozprofile7lprib"
+1660531121912	Marionette	INFO	Marionette enabled
+1660531121925	Marionette	INFO	Listening on port 6917
+Read port: 6917
+WebDriver BiDi listening on ws://localhost:6904
+1660531122173	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMIN-~1\\AppData\\Local\\Temp\\rust_mozprofile7lprib\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:6904/devtools/browser/7513aea2-a5db-4595-961b-fb187c24d352
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fireliker.com"
+JavaScript warning: https://lputorrents.xyz/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://pagead2.googlesyndication.com/bg/lIG_-rjQweUtsPTJkqViasoL1XPo6OtXzg5InKx-NMQ.js line 2 > eval line 5750 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fireliker.com"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1660531519922	Marionette	INFO	Stopped listening on port 6917
+1660531527227	geckodriver	INFO	Listening on 127.0.0.1:7242
+1660531530266	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "7243" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMIN-~1\\AppData\\Local\\Temp\\rust_mozprofilebgqqTG"
+1660531531043	Marionette	INFO	Marionette enabled
+1660531531057	Marionette	INFO	Listening on port 7254
+WebDriver BiDi listening on ws://localhost:7243
+Read port: 7254
+1660531531332	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMIN-~1\\AppData\\Local\\Temp\\rust_mozprofilebgqqTG\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:7243/devtools/browser/303fae94-eec8-4804-86a7-7eaa59d50c8b
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fireliker.com"
+JavaScript warning: https://lputorrents.xyz/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://pagead2.googlesyndication.com/bg/lIG_-rjQweUtsPTJkqViasoL1XPo6OtXzg5InKx-NMQ.js line 2 > eval line 272 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1660531700213	Marionette	INFO	Stopped listening on port 7254
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 8704, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1660531707470	geckodriver	INFO	Listening on 127.0.0.1:7475
+1660531710515	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "7476" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMIN-~1\\AppData\\Local\\Temp\\rust_mozprofilegosMEz"
+1660531711336	Marionette	INFO	Marionette enabled
+1660531711349	Marionette	INFO	Listening on port 7489
+WebDriver BiDi listening on ws://localhost:7476
+Read port: 7489
+1660531711634	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMIN-~1\\AppData\\Local\\Temp\\rust_mozprofilegosMEz\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:7476/devtools/browser/79a6cacd-795b-47b7-9077-7a90ef8fb3c4
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fireliker.com"
+JavaScript warning: https://lputorrents.xyz/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://pagead2.googlesyndication.com/bg/lIG_-rjQweUtsPTJkqViasoL1XPo6OtXzg5InKx-NMQ.js line 2 > eval line 6549 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fireliker.com"
+JavaScript warning: https://lputorrents.xyz/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://pagead2.googlesyndication.com/bg/lIG_-rjQweUtsPTJkqViasoL1XPo6OtXzg5InKx-NMQ.js line 2 > eval line 2801 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/lIG_-rjQweUtsPTJkqViasoL1XPo6OtXzg5InKx-NMQ.js line 2 > eval line 4603 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1660531807073	Marionette	INFO	Stopped listening on port 7489
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1660532552397	geckodriver	INFO	Listening on 127.0.0.1:8231
+1660532555132	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "8232" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMIN-~1\\AppData\\Local\\Temp\\rust_mozprofilevayqxq"
+1660532555864	Marionette	INFO	Marionette enabled
+1660532555876	Marionette	INFO	Listening on port 8242
+WebDriver BiDi listening on ws://localhost:8232
+Read port: 8242
+1660532556115	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMIN-~1\\AppData\\Local\\Temp\\rust_mozprofilevayqxq\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:8232/devtools/browser/38158df5-62bc-4e42-a625-feb8c1a43629
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fireliker.com"
+JavaScript warning: https://lputorrents.xyz/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://pagead2.googlesyndication.com/bg/lIG_-rjQweUtsPTJkqViasoL1XPo6OtXzg5InKx-NMQ.js line 2 > eval line 6713 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fireliker.com"
+JavaScript warning: https://lputorrents.xyz/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://pagead2.googlesyndication.com/bg/lIG_-rjQweUtsPTJkqViasoL1XPo6OtXzg5InKx-NMQ.js line 2 > eval line 6459 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/lIG_-rjQweUtsPTJkqViasoL1XPo6OtXzg5InKx-NMQ.js line 2 > eval line 4810 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fireliker.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fireliker.com"
+JavaScript error: resource://devtools/client/jsonview/Sniffer.jsm, line 58: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.contentType]
+JavaScript error: resource://devtools/client/jsonview/Sniffer.jsm, line 58: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.contentType]
+JavaScript error: resource://devtools/client/jsonview/Sniffer.jsm, line 58: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.contentType]
+JavaScript error: resource://devtools/client/jsonview/Sniffer.jsm, line 58: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.contentType]
+JavaScript error: resource://devtools/client/jsonview/Sniffer.jsm, line 58: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.contentType]
+JavaScript error: resource://devtools/client/jsonview/Sniffer.jsm, line 58: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.contentType]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fireliker.com"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/lIG_-rjQweUtsPTJkqViasoL1XPo6OtXzg5InKx-NMQ.js line 2 > eval line 4450 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fireliker.com"
+console.error: "Unable to find target with innerWindowId:4294967393"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1660534078277	Marionette	INFO	Stopped listening on port 8242
+[Parent 19832, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1660534140969	geckodriver	INFO	Listening on 127.0.0.1:9453
+1660534143668	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "9454" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMIN-~1\\AppData\\Local\\Temp\\rust_mozprofileFVYjQI"
+1660534144908	Marionette	INFO	Marionette enabled
+1660534144922	Marionette	INFO	Listening on port 9465
+WebDriver BiDi listening on ws://localhost:9454
+Read port: 9465
+1660534145172	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMIN-~1\\AppData\\Local\\Temp\\rust_mozprofileFVYjQI\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:9454/devtools/browser/e6dc449f-c973-47b5-a53e-c51b42e68de8
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fireliker.com"
+JavaScript warning: https://lputorrents.xyz/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://pagead2.googlesyndication.com/bg/lIG_-rjQweUtsPTJkqViasoL1XPo6OtXzg5InKx-NMQ.js line 2 > eval line 3990 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fireliker.com"
+JavaScript warning: https://lputorrents.xyz/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://pagead2.googlesyndication.com/bg/lIG_-rjQweUtsPTJkqViasoL1XPo6OtXzg5InKx-NMQ.js line 2 > eval line 4378 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/lIG_-rjQweUtsPTJkqViasoL1XPo6OtXzg5InKx-NMQ.js line 2 > eval line 2842 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fireliker.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+[2022-08-15T03:32:43Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-15T03:32:43Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-15T03:32:43Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-15T03:32:43Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fireliker.com"
+console.error: "Unable to find target with innerWindowId:4294967397"
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: "Unable to find target with innerWindowId:4294967398"
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1660535346712	Marionette	INFO	Stopped listening on port 9465
+[Parent 17616, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1660537057475	geckodriver	INFO	Listening on 127.0.0.1:11436
+1660537060511	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "11437" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMIN-~1\\AppData\\Local\\Temp\\rust_mozprofilexh8dg0"
+1660537061386	Marionette	INFO	Marionette enabled
+1660537061419	Marionette	INFO	Listening on port 11447
+WebDriver BiDi listening on ws://localhost:11437
+Read port: 11447
+1660537062784	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMIN-~1\\AppData\\Local\\Temp\\rust_mozprofilexh8dg0\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:11437/devtools/browser/06909a1e-774e-4edb-8024-65110dd86fb8
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 278: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fireliker.com"
+1660537073680	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:237:24
+TimedPromise@chrome://remote/content/marionette/sync.js:222:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1660537133528	Marionette	INFO	Stopped listening on port 11447
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1660537146653	geckodriver	INFO	Listening on 127.0.0.1:11491
+1660537149681	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "11492" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMIN-~1\\AppData\\Local\\Temp\\rust_mozprofileB9BjWr"
+1660537150402	Marionette	INFO	Marionette enabled
+1660537150413	Marionette	INFO	Listening on port 11502
+WebDriver BiDi listening on ws://localhost:11492
+Read port: 11502
+1660537150647	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMIN-~1\\AppData\\Local\\Temp\\rust_mozprofileB9BjWr\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:11492/devtools/browser/1fd501f3-18d2-45a4-af83-32e857c3158f
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fireliker.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fireliker.com"
+JavaScript warning: https://lputorrents.xyz/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://pagead2.googlesyndication.com/bg/lIG_-rjQweUtsPTJkqViasoL1XPo6OtXzg5InKx-NMQ.js line 2 > eval line 5539 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1660537244611	Marionette	INFO	Stopped listening on port 11502
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1660537282700	geckodriver	INFO	Listening on 127.0.0.1:11599
+1660537285735	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "11600" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMIN-~1\\AppData\\Local\\Temp\\rust_mozprofile7dj9po"
+1660537286447	Marionette	INFO	Marionette enabled
+1660537286460	Marionette	INFO	Listening on port 11610
+WebDriver BiDi listening on ws://localhost:11600
+Read port: 11610
+1660537286685	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMIN-~1\\AppData\\Local\\Temp\\rust_mozprofile7dj9po\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:11600/devtools/browser/93b55713-a9d1-425b-85c5-b7458b010232
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 278: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fireliker.com"
+JavaScript warning: https://lputorrents.xyz/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://pagead2.googlesyndication.com/bg/lIG_-rjQweUtsPTJkqViasoL1XPo6OtXzg5InKx-NMQ.js line 2 > eval line 2381 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1660537354721	Marionette	INFO	Stopped listening on port 11610
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1660537367390	geckodriver	INFO	Listening on 127.0.0.1:11691
+1660537370431	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "11692" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMIN-~1\\AppData\\Local\\Temp\\rust_mozprofileVKPwxJ"
+1660537371132	Marionette	INFO	Marionette enabled
+1660537371144	Marionette	INFO	Listening on port 11702
+WebDriver BiDi listening on ws://localhost:11692
+Read port: 11702
+1660537371405	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMIN-~1\\AppData\\Local\\Temp\\rust_mozprofileVKPwxJ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:11692/devtools/browser/73948a02-3044-4b5e-aff7-83b2a5153149
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 278: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://fireliker.com"
+1660537381206	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:237:24
+TimedPromise@chrome://remote/content/marionette/sync.js:222:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://lputorrents.xyz/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://pagead2.googlesyndication.com/bg/lIG_-rjQweUtsPTJkqViasoL1XPo6OtXzg5InKx-NMQ.js line 2 > eval line 3970 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1660537398467	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:237:24
+TimedPromise@chrome://remote/content/marionette/sync.js:222:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/lIG_-rjQweUtsPTJkqViasoL1XPo6OtXzg5InKx-NMQ.js line 2 > eval line 6518 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[GFX1]: Device reset due to WR device: 0x887a0006
+[GFX1-]: GFX: RenderThread detected a device reset in PostUpdate
+1660537518361	Marionette	INFO	Stopped listening on port 11702
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.

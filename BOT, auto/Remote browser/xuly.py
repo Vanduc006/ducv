@@ -6,5 +6,5 @@ with open('usr_and_pass.txt') as file:
         get_password = line.split('|')[1]
         def run_remote():
             
-        print(get_username)
+            print(get_username)
         print(get_password)
