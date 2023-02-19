@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Chat Bot Nguyễn Văn Đức</h1>
+        <form id="message_form">
+            <input id="message_input" class="mess" t placeholder="Bạn muốn hỏi gì nhỉ ?">
+            <button type="submit" style="padding: 20px 50px;" class="btn">Send</button>
+        </form>    
+        <div id="response_area" class='respone'></div>
+    </div>
+    <style>
+        * {
+            font-family: 'Courier New', Courier, monospace;
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            text-align: center;
+        }
+        .mess {
+            padding: 20px 50px;
+            font-size: 20px;
+        }
+        .mess, .btn {
+            display: inline-block;
+        }
+        .respone {
+            padding: 20px 50px;
+            
+        }
+
+    </style>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#message_form').submit(function(event) {
+                event.preventDefault();
+                var user_input = $('#message_input').val();
+                if (user_input !== '') {
+                    $.ajax({
+                        url: '/prompt',
+                        type: 'POST',
+                        dataType: 'json',
+                        contentType: 'application/json',
+                        data: JSON.stringify({'prompt': user_input}),
+                        success: function(data) {
+                            $('#response_area').html('<p style="font-size:14px;">'+'Đức hiện lên và trả lời rằng:' + data.response + '</p>');
+                        },
+                        error: function(xhr, status, error) {
+                            console.log('Error: ' + error.message);
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
