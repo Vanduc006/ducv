@@ -131,10 +131,15 @@ def data_mail():
                             driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()),options=Options) 
                             driver.implicitly_wait(5)
                             driver.get(f'https://www.1secmail.com/mailbox/?action=readMessageFull&id={message_id}&login={username_in_line}&domain={domain_in_line}')
+                            driver.find_element(By.XPATH,'/html/body/div[1]/div[4]/div/div[4]/div/center/table/tbody/tr/td/div[2]/p[2]/a')
+
+                            input("mình tạo cái này để nó không tự động chuyển sang mail khác á, ấn xong nút verify bạn enter nha")
+
                         try:
-                            rm()    
+                            rm()        
                         except:
                             print('huhu lũi rùi:< đây có thể lỗi tui chưa phát hiện ra, ib tui luôn nha<3')    
+                            input('bạn ấn enter nha vì cũng có thể do khi mở lên nó không tìm thấy nút verify ấy b <3')
             except:
                 print('xong')
     
