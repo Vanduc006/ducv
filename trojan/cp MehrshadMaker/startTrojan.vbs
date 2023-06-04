@@ -1,0 +1,1 @@
+CreateObject("Wscript.Shell").Run "screenShot.exe",0 ,Fasle

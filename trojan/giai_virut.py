@@ -17,8 +17,6 @@ password = f"{pass_2}".encode('utf-8')
 key = hashlib.sha256(password).digest() 
 cipher = Fernet(base64.urlsafe_b64encode(key))
             
-
-
 for file in files:
     with open(file, "rb") as f:
         encrypted_data = f.read()

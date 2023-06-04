@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flask Request Example</title>
+  </head>
+  <body>
+    <h1>Nhấn nút để lấy kết quả requests đến </h1>
+    <form action="/result" method="POST">
+      <input type="text" placeholder="url" name="url">
+      <input type="submit" value="Lấy kết quả">
+    </form>
+    <form method="post" action="/mess">
+      <label for="name">Nhập tên của bạn:</label>
+      <input type="text" id="name" name="name">
+      <button type="submit">Xác nhận</button>
+    </form>
+    {% if message %}
+    <p>{{ message }}</p>
+    {% endif %}
+    <form method="post" action="/token">
+      <input type="text" name="token" placeholder="token here" >
+      <input type="submit" value="go">
+      {% if token %}
+      <p style="background-color: red;">{{ token }}</p>
+      {% endif %}
+    </form>
+    <form action="/vohan" method="post">
+      <input type="submit" value="start">
+      {% if vohan %}
+    <p>{{ vohan }}</p>
+    {% endif %}
+    </form>
+  </body>
+</html>

