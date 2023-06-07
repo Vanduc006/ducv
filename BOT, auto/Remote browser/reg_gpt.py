@@ -16,7 +16,8 @@ import tkinter as tk
 from tkinter import filedialog
 from tkinter import messagebox
 from tkinter import simpledialog
-from tkinter import *           
+from tkinter import * 
+'''       
 def chong_scam():
     url = "https://640c374f94ce1239b0a7ebd5.mockapi.io/api/v1/clm"
     response = requests.get(url)
@@ -30,8 +31,8 @@ def chong_scam():
         print('lỗi vui lòng liên hệ tôi !!!')
         sys.exit()
 
+'''
 
-chong_scam()
 
 def lay_mail():
     currentDateAndTime = datetime.now()
@@ -154,6 +155,51 @@ def browser():
     #driver.get('https://www.1secmail.com/mailbox/?action=readMessageFull&id=205594485&login=nguyenduc&domain=dcctb.com')
     #driver.find_element(By.XPATH,'/html/body/div[1]/div[4]/div/div[4]/div/center/table/tbody/tr/td/div[2]/p[2]/a').click()
     input('f')
+def thread():
+    
+    try:
+        def runtest(l):
+            print('Đang chạy Luồng',l)
+            time.sleep(l)
+            
+            Options =  webdriver.ChromeOptions()
+            Options.add_argument('--app=https://chat.openai.com/')
+            driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()),options=Options)  
+            driver.implicitly_wait(5)
+            driver = uc.Chrome()
+            x = l*400
+            y = 10
+            driver.set_window_rect(x,y,400,600)
+            #driver.get(f'https://www.youtube.com/results?search_query={keyword}')
+            driver.get('https://chat.openai.com/')
+            
+            
+            time.sleep(1000)
+
+
+        soluong  = 2
+        
+        
+        threads = []
+        for l in range(soluong):
+            threads += [threading.Thread(target=runtest,args={l},)]
+        for t in threads:
+            t.start()
+        for t in threads:
+            t.join()
+        print('Kết thúc hết số luồng')
+        
+
+    
+    except KeyboardInterrupt:
+        print('Interrupted')
+        quit()
+
+
+
+    
+    
+    
 
 nhiem_vu = input('''
 Hi chào bạn <3 Chúc bạn ngày mới vui vẻ
@@ -172,9 +218,6 @@ if nhiem_vu == '2':
     data_mail()
 if nhiem_vu == '3':
     print('haha tui xóa chức năng này ùi:>')    
-
-   
-
 
 
 

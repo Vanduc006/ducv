@@ -10,6 +10,7 @@ driver = Chrome(options=options)
 driver.get("https://www.tiktok.com/@phungdatdzvl0_0/")
 
 # Lưu trữ các liên kết đã truy cập
+
 visited_links = set()
 while True:
     previous_height = driver.execute_script("return document.body.scrollHeight")
